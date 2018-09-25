@@ -26,6 +26,12 @@
       compile project(':rn-write-settings')
   	```
 
+## Permissions
+  * Open up `android/app/src/main/AndroidManifest.xml` and add the `WRITE_SETTINGS` permission.
+  ```xml
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  ```
+
 ## Usage
 ```javascript
 import RNWriteSettings from 'rn-write-settings';
