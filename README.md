@@ -18,8 +18,8 @@
   - Add `new RNWriteSettingsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-write-settings'
-  	project(':react-native-write-settings').projectDir = new File(rootProject.projectDir, 	'../node_modules/rn-write-settings/android')
+  	include ':rn-write-settings'
+  	project(':rn-write-settings').projectDir = new File(rootProject.projectDir, 	'../node_modules/rn-write-settings/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
