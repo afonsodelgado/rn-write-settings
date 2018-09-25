@@ -47,7 +47,7 @@
 ```javascript
 import RNWriteSettings from 'rn-write-settings';
 
-// TODO: What to do with the module?
-RNWriteSettings;
+// A system window for the user configure this permission should appear.
+RNWriteSettings.checkPermission();
 ```
   
