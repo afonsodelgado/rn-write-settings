@@ -25,7 +25,7 @@ public class RNWriteSettingsModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void checkPermission(boolean useWifi) {
+  public void checkPermission() {
     boolean canWriteSettings = false;
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
