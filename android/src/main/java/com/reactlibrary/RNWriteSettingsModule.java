@@ -21,7 +21,7 @@ public class RNWriteSettingsModule extends ReactContextBaseJavaModule {
   public RNWriteSettingsModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
-    context = (ReactApplicationContext) getApplicationContext();
+    context = (ReactApplicationContext) getReactApplicationContext();
   }
 
   @ReactMethod
